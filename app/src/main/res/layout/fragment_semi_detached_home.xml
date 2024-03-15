@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SemiDetachedHomeFragment">
+
+    <TextView
+        android:id="@+id/semi_detached_title"
+        android:layout_width="@dimen/txt_title_width"
+        android:layout_height="@dimen/txt_title_height"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="@string/availability_title"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image_semidetached1"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:contentDescription="@string/desc_medium"
+        android:src="@drawable/semidetached1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/semi_detached_title"
+        app:layout_constraintEnd_toStartOf="@id/image_semidetached2"
+        app:layout_constraintBottom_toTopOf="@id/txt_address_semidetached1"
+        />
+
+    <TextView
+        android:id="@+id/txt_address_semidetached1"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/address_semidetached1"
+        android:textSize="@dimen/txt_address"
+        app:layout_constraintTop_toBottomOf="@id/image_semidetached1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txt_address_semidetached2"
+        app:layout_constraintBottom_toTopOf="@id/txt_price_semidetached1"
+        />
+
+    <TextView
+        android:id="@+id/txt_price_semidetached1"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/price_semidetached1"
+        android:textSize="@dimen/txt_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_address_semidetached1"
+        app:layout_constraintEnd_toStartOf="@id/txt_price_semidetached2"
+        />
+    <CheckBox
+        android:id="@+id/ck_visit_semidetached1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ck_visit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_price_semidetached1"
+        app:layout_constraintEnd_toStartOf="@id/ck_visit_semidetached2"/>
+
+    <ImageView
+        android:id="@+id/image_semidetached2"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:contentDescription="@string/desc_large"
+        android:src="@drawable/semidetached2"
+        app:layout_constraintStart_toEndOf="@id/image_semidetached1"
+        app:layout_constraintTop_toBottomOf="@id/semi_detached_title"
+        app:layout_constraintBottom_toTopOf="@id/txt_address_semidetached2"
+        app:layout_constraintEnd_toStartOf="@id/image_semidetached3"
+        />
+
+    <TextView
+        android:id="@+id/txt_address_semidetached2"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/address_semidetached2"
+        android:textSize="@dimen/txt_address"
+        app:layout_constraintStart_toEndOf="@id/txt_address_semidetached1"
+        app:layout_constraintTop_toBottomOf="@id/image_semidetached2"
+        app:layout_constraintEnd_toStartOf="@id/txt_address_semidetached3"
+        app:layout_constraintBottom_toTopOf="@id/txt_price_semidetached2"/>
+
+    <TextView
+        android:id="@+id/txt_price_semidetached2"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/price_semidetached2"
+        android:textSize="@dimen/txt_price"
+        app:layout_constraintStart_toEndOf="@id/txt_price_semidetached1"
+        app:layout_constraintTop_toBottomOf="@id/txt_address_semidetached2"
+        app:layout_constraintEnd_toStartOf="@id/txt_price_semidetached3"/>
+
+    <CheckBox
+        android:id="@+id/ck_visit_semidetached2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ck_visit"
+        app:layout_constraintStart_toEndOf="@id/ck_visit_semidetached1"
+        app:layout_constraintTop_toBottomOf="@id/txt_price_semidetached2"
+        app:layout_constraintEnd_toStartOf="@id/ck_visit_semidetached3"
+        />
+
+    <ImageView
+        android:id="@+id/image_semidetached3"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:contentDescription="@string/desc_small"
+        android:src="@drawable/semidetached3"
+        app:layout_constraintStart_toEndOf="@id/image_semidetached2"
+        app:layout_constraintTop_toBottomOf="@id/semi_detached_title"
+        app:layout_constraintBottom_toTopOf="@id/txt_address_semidetached3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_address_semidetached3"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:layout_marginBottom="420dp"
+        android:gravity="center"
+        android:text="@string/address_semidetached3"
+        android:textSize="@dimen/txt_address"
+        app:layout_constraintStart_toEndOf="@id/txt_address_semidetached2"
+        app:layout_constraintTop_toBottomOf="@id/image_semidetached3"
+        app:layout_constraintBottom_toTopOf="@id/txt_price_semidetached3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_price_semidetached3"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/price_semidetached3"
+        android:textSize="@dimen/txt_price"
+        app:layout_constraintStart_toEndOf="@id/txt_price_semidetached2"
+        app:layout_constraintTop_toBottomOf="@id/txt_address_semidetached3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <CheckBox
+        android:id="@+id/ck_visit_semidetached3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ck_visit"
+        app:layout_constraintStart_toEndOf="@id/ck_visit_semidetached2"
+        app:layout_constraintTop_toBottomOf="@id/txt_price_semidetached3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_semidetached_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_proceed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ck_visit_semidetached2"
+        android:layout_marginTop="@dimen/btn_detproceed_margin_top"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu_title"
+        >
+        <item
+            android:title="@string/home_types"
+            android:enabled="false"
+            android:checkable="false"
+            app:showAsAction="always"/>
+    </group>
+    <item
+        android:id="@+id/apartment_option"
+        android:title="@string/apartment"
+        />
+    <item
+        android:id="@+id/detached_home_option"
+        android:title="@string/detached_home"
+        />
+    <item
+        android:id="@+id/semi_detached_home_option"
+        android:title="@string/semi_detached_home"
+        />
+    <item
+        android:id="@+id/condominium_option"
+        android:title="@string/condominium_apartment"
+        />
+    <item
+        android:id="@+id/town_house_option"
+        android:title="@string/town_house"
+        />
+</menu>

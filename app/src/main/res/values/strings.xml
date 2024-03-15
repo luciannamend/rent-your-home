@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">LeaseOrRentHome Inc.</string>
+    <string name="button_enter">ENTER</string>
+    <string name="user_guide">To begin,
+        please select your preferred Home Type on the Top Right Corner</string>
+    <string name="home_types">Home Types</string>
+    <string name="apartment">Apartment</string>
+    <string name="detached_home">Detached Home</string>
+    <string name="semi_detached_home">Semi-Detached Home</string>
+    <string name="condominium_apartment">Condominium Apartment</string>
+    <string name="town_house">Town House</string>
+
+    <string name="availability_title">Available Homes</string>
+
+    <string name="desc_medium">Medium</string>
+    <string name="desc_large">Large</string>
+    <string name="desc_small">Small</string>
+    <string name="ck_visit">Visit</string>
+    <string name="btn_proceed">PROCEED</string>
+
+    <string name="address_apt1">123 Main Street</string>
+    <string name="address_apt2">456 Oak Avenue</string>
+    <string name="address_apt3">789 Elm Street</string>
+    <string name="price_apt1"> $1230</string>
+    <string name="price_apt2"> $4560</string>
+    <string name="price_apt3"> $7890</string>
+
+    <string name="address_detached1">101 Pine Road</string>
+    <string name="address_detached2">26 Main Avenue</string>
+    <string name="address_detached3">753 Cedar Lane</string>
+    <string name="price_detached1"> $5620</string>
+    <string name="price_detached2"> $4215</string>
+    <string name="price_detached3"> $7520</string>
+
+    <string name="address_semidetached1">81 Birc Street</string>
+    <string name="address_semidetached2">345 Elm Street</string>
+    <string name="address_semidetached3">678 Spruce Lane</string>
+    <string name="price_semidetached1"> $2563</string>
+    <string name="price_semidetached2"> $8542</string>
+    <string name="price_semidetached3"> $6536</string>
+
+    <string name="address_condo1">22 Pine Road</string>
+    <string name="address_condo2">99 Oak Drive</string>
+    <string name="address_condo3">44 Maple Avenue</string>
+    <string name="price_condo1"> $5624</string>
+    <string name="price_condo2"> $8965</string>
+    <string name="price_condo3"> $5632</string>
+
+    <string name="address_townhouse1">77 Cedar Lane</string>
+    <string name="address_townhouse2">85 Elm Road</string>
+    <string name="address_townhouse3">33 Pine Avenue</string>
+    <string name="price_townhouse1"> $10254</string>
+    <string name="price_townhouse2"> $9563</string>
+    <string name="price_townhouse3"> $11524</string>
+
+    <string name="payment_method_title">PAYMENT METHOD</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="confirm_payment">CONFIRM PAYMENT</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="txt_customer_information">CUSTOMER INFORMATION</string>
+
+    <string name="credit_and_debit_card_payment_information">
+        CREDIT AND DEBIT CARD PAYMENT INFORMATION</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="favorite_food">Favorite Food</string>
+    <string name="favorite_team">Favorite Team</string>
+    <string name="favorite_sport">Favorite Sport</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="customer_information">CUSTOMER INFORMATION</string>
+    <string name="card_info">Card Number - CVC</string>
+    <string name="txt_payment_submission">We are processing your payment and we will send you an email when finished</string>
+</resources>

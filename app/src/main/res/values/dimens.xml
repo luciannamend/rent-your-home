@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size">20dp</dimen>
+    <dimen name="margin_midle_txt">50dp</dimen>
+    <dimen name="txt_address">15sp</dimen>
+    <dimen name="txt_price">17sp</dimen>
+    <dimen name="txt_title_width">350dp</dimen>
+    <dimen name="txt_title_height">40dp</dimen>
+    <dimen name="img_width">112dp</dimen>
+    <dimen name="img_height">108dp</dimen>
+    <dimen name="txt_width">112dp</dimen>
+    <dimen name="txt_height">26dp</dimen>
+    <dimen name="btn_checkout_margin">150dp</dimen>
+    <dimen name="margin_title">100dp</dimen>
+    <dimen name="radiobtn_margin_start">30dp</dimen>
+    <dimen name="radiobtn_margin_top">30dp</dimen>
+    <dimen name="editxt_name_margin_top">30dp</dimen>
+    <dimen name="logo_width">407dp</dimen>
+    <dimen name="logo_height">249dp</dimen>
+    <dimen name="btn_detproceed_margin_top">30dp</dimen>
+    <dimen name="detached_title_margin_top">200dp</dimen>
+</resources>

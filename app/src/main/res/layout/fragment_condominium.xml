@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CondominiumFragment">
+    <TextView
+        android:id="@+id/condo_title"
+        android:layout_width="@dimen/txt_title_width"
+        android:layout_height="@dimen/txt_title_height"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="@string/availability_title"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image_condo1"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:contentDescription="@string/desc_medium"
+        android:src="@drawable/condo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/condo_title"
+        app:layout_constraintEnd_toStartOf="@id/image_condo2"
+        app:layout_constraintBottom_toTopOf="@id/txt_address_condo1"
+        />
+
+    <TextView
+        android:id="@+id/txt_address_condo1"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/address_condo1"
+        android:textSize="@dimen/txt_address"
+        app:layout_constraintTop_toBottomOf="@id/image_condo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txt_address_condo2"
+        app:layout_constraintBottom_toTopOf="@id/txt_price_condo1"
+        />
+
+    <TextView
+        android:id="@+id/txt_price_condo1"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/price_condo1"
+        android:textSize="@dimen/txt_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_address_condo1"
+        app:layout_constraintEnd_toStartOf="@id/txt_price_condo2"
+        />
+    <CheckBox
+        android:id="@+id/ck_visit_condo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ck_visit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_price_condo1"
+        app:layout_constraintEnd_toStartOf="@id/ck_visit_condo2"/>
+
+    <ImageView
+        android:id="@+id/image_condo2"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:contentDescription="@string/desc_large"
+        android:src="@drawable/condo2"
+        app:layout_constraintStart_toEndOf="@id/image_condo1"
+        app:layout_constraintTop_toBottomOf="@id/condo_title"
+        app:layout_constraintBottom_toTopOf="@id/txt_address_condo2"
+        app:layout_constraintEnd_toStartOf="@id/image_condo3"
+        />
+
+    <TextView
+        android:id="@+id/txt_address_condo2"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/address_condo2"
+        android:textSize="@dimen/txt_address"
+        app:layout_constraintStart_toEndOf="@id/txt_address_condo1"
+        app:layout_constraintTop_toBottomOf="@id/image_condo2"
+        app:layout_constraintEnd_toStartOf="@id/txt_address_condo3"
+        app:layout_constraintBottom_toTopOf="@id/txt_price_condo2"/>
+
+    <TextView
+        android:id="@+id/txt_price_condo2"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/price_condo2"
+        android:textSize="@dimen/txt_price"
+        app:layout_constraintStart_toEndOf="@id/txt_price_condo1"
+        app:layout_constraintTop_toBottomOf="@id/txt_address_condo2"
+        app:layout_constraintEnd_toStartOf="@id/txt_price_condo3"/>
+
+    <CheckBox
+        android:id="@+id/ck_visit_condo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ck_visit"
+        app:layout_constraintStart_toEndOf="@id/ck_visit_condo1"
+        app:layout_constraintTop_toBottomOf="@id/txt_price_condo2"
+        app:layout_constraintEnd_toStartOf="@id/ck_visit_condo3"
+        />
+
+    <ImageView
+        android:id="@+id/image_condo3"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:contentDescription="@string/desc_small"
+        android:src="@drawable/condo3"
+        app:layout_constraintStart_toEndOf="@id/image_condo2"
+        app:layout_constraintTop_toBottomOf="@id/condo_title"
+        app:layout_constraintBottom_toTopOf="@id/txt_address_condo3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_address_condo3"
+        android:layout_width="111dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="420dp"
+        android:gravity="center"
+        android:text="@string/address_condo3"
+        android:textSize="@dimen/txt_address"
+        app:layout_constraintStart_toEndOf="@id/txt_address_condo2"
+        app:layout_constraintTop_toBottomOf="@id/image_condo3"
+        app:layout_constraintBottom_toTopOf="@id/txt_price_condo3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_price_condo3"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:gravity="center"
+        android:text="@string/price_condo3"
+        android:textSize="@dimen/txt_price"
+        app:layout_constraintStart_toEndOf="@id/txt_price_condo2"
+        app:layout_constraintTop_toBottomOf="@id/txt_address_condo3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <CheckBox
+        android:id="@+id/ck_visit_condo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ck_visit"
+        app:layout_constraintStart_toEndOf="@id/ck_visit_condo2"
+        app:layout_constraintTop_toBottomOf="@id/txt_price_condo3"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_condo_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_proceed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ck_visit_condo2"
+        android:layout_marginTop="@dimen/btn_detproceed_margin_top"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
